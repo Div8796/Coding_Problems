@@ -1,7 +1,10 @@
+//Given n dice each with m faces, numbered from 1 to m, find the number of ways to get sum X. 
+//X is the summation of values on each face when all the dice are thrown.
+//Input: 6, 3, 8
+//Output: 21
+
 #include<bits/stdc++.h>
-
 #define FOREQ(i, a, b) for(int i=a; i<=b; i++)
-
 using namespace std;
 
 //Approach 1: Using recursion
